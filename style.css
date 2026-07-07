@@ -62,3 +62,20 @@ footer{
     text-align:center;
     padding:30px;
 }
+header{
+    background: linear-gradient(rgba(13,71,161,.85), rgba(13,71,161,.85)),
+    url('https://images.unsplash.com/photo-1486006920555-c77dcf18193c?q=80&w=1600&auto=format&fit=crop') center/cover;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+header h1{
+    font-size:60px;
+    text-shadow:2px 2px 10px black;
+}
+
+header p{
+    font-size:28px;
+    margin-bottom:30px;
+}
