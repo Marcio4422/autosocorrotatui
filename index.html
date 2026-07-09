@@ -169,3 +169,34 @@ Capela do Alto, Itapetininga e toda a região.</strong>
 </a>
 </body>
 </html>
+/* ===== SERVIÇOS ===== */
+
+.servicos-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.servico-card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+    transition:.3s;
+    border-top:5px solid #0d47a1;
+}
+
+.servico-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.servico-card h3{
+    color:#0d47a1;
+    margin-top:0;
+}
+
+.servico-card p{
+    line-height:1.6;
+}
